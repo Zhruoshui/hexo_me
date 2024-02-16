@@ -1,0 +1,542 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: ruoshui_blog
+
+description: ''
+keywords: 'blog'
+author: 'ruoshui'
+language: 'zh-CN'
+timezone: 'Asia/Shanghai'
+
+# URL
+## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
+url: https://aruoshui.github.io/
+permalink: posts/:abbrlink.html
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs:
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## updated_option supports 'mtime', 'date', 'empty'
+updated_option: 'mtime'
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: butterfly
+
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repository: git@github.com:Aruoshui/Aruoshui.github.io.git
+  branch: main
+
+nav:
+  logo: 
+  display_title: true
+  fixed: true # fixed navigation bar
+
+menu:
+  首页: / || fas fa-home
+  时间轴: /archives/ || fas fa-archive
+  标签: /tags/ || fas fa-tags
+  分类: /categories/ || fas fa-folder-open
+  清单||fa fa-heartbeat:
+    音乐: /music/ || fas fa-music
+    照片: /Gallery/ || fas fa-images
+    电影: /movies/ || fas fa-video
+  友链: /link/ || fas fa-link
+  关于: /about/ || fas fa-heart
+
+
+note:
+  # Note tag style values:
+  #  - simple    bs-callout old alert style. Default.
+  #  - modern    bs-callout new (v2-v3) alert style.
+  #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
+  #  - disabled  disable all CSS styles import of note tag.
+  style: simple
+  icons: false
+  border_radius: 3
+  # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
+  # Offset also applied to label tag variables. This option can work with disabled note tag.
+  light_bg_offset: 0
+
+# 代码
+highlight_theme: mac light
+highlight_copy: true
+highlight_shrink: false #代码框展开。true则需点击 '>' 打开
+code_word_wrap: true
+highlight_height_limit: +30 # unit: px
+
+
+# 社交图标 (Social Settings)
+social:
+  fa-solid fa-microchip: https://github.com/Aruoshui || Github || "#hdhfbb"
+  fa-regular fa-envelope: mailto:2551145914@qq.com || Email || "#000000"
+  fab fa-bilibili: https://space.bilibili.com/318903228 || Bilibili || "#000000"
+  
+avatar:
+  img: https://s2.loli.net/2024/02/13/iUmwkz7VPv9ZGbC.jpg
+  effect: false # 头像会一直转圈
+
+# 顶部图
+index_img: https://s2.loli.net/2024/01/29/kaL9Q4P2dBHw1Kp.jpg # 'linear-gradient(135deg, #c7e9fb, #a6defa, #80d4f9, #5bc9f8, #35bef7)'
+default_top_img: https://s2.loli.net/2024/02/13/JW92CT4YR1PKqIb.jpg
+tag_img: https://s2.loli.net/2024/01/29/z8cwbOdQ3mgSn4x.png
+
+# 文章封面
+cover:
+  # 是否显示文章封面
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
+  # 封面显示的位置
+  # 三个值可配置 left , right , both
+  position: both
+  # 当没有设置cover时，默认的封面显示
+  default_cover: 
+    - https://s2.loli.net/2024/02/13/6mjgrnWdR4DBtYG.png
+    - https://s2.loli.net/2024/02/13/Ut5KvF2L3JjkglO.png
+    - https://s2.loli.net/2024/02/13/714YfuKxZCjlOq3.jpg
+    - https://s2.loli.net/2024/02/13/RJHWPVlT8fL7byx.jpg
+
+# 页面meta显示
+post_meta:
+  page:
+    date_type: both # created or updated or both 主页文章日期是创建日或者更新日或都显示
+    date_format: date # date/relative 显示日期还是相对日期
+    categories: true # true or false 主页是否显示分类
+    tags: true # true or false 主页是否显示标签
+    label: true # true or false 显示描述性文字
+  post:
+    date_type: both # created or updated or both 文章页日期是创建日或者更新日或都显示
+    date_format: relative # date/relative 显示日期还是相对日期
+    categories: true # true or false 文章页是否显示分类
+    tags: true # true or false 文章页是否显示标签
+    label: true # true or false 显示描述性文字
+
+
+# 主页文章节选
+index_post_content:
+  method: 3
+  length: 500 # if you set method to 2 or 3, the length need to config
+
+#页面锚点
+anchor:
+  # when you scroll, the URL will update according to header id.
+  auto_update: false
+  # Click the headline to scroll and update the anchor
+  click_to_scroll: false
+
+#图片描述
+photofigcaption: true
+
+#复制相关配置
+copy:  
+  enable: true  
+  copyright:    
+    enable: false
+    # limit_count: 50
+
+#文章版权和协议许可
+post_copyright:
+  enable: true
+  decode: false
+  author_href:
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+
+#文章打赏
+reward:
+  enable: true
+  text:
+  QR_code:
+    - img: /img/dashang.jpg
+      link:
+      text: 微信打赏
+
+# TOC
+toc:
+  post: true
+  page: true
+  number: true
+  expand: false
+  style_simple: false # for post
+  scroll_percent: true
+
+# 相关文章
+related_post:
+  enable: true
+  limit: 4 # 显示推荐文章数目
+  date_type: created # or created or updated 文章日期显示创建日或者更新日
+
+#文章过期提醒
+noticeOutdate:
+  enable: true
+  style: flat # style: simple/flat
+  limit_day: 365 # When will it be shown
+  position: top # position: top/bottom
+  message_prev: It has been
+  message_next: days since the last update, the content of the article may be outdated.
+
+#文章编辑按钮
+# Post edit
+# Easily browse and edit blog source code online.
+post_edit:
+  enable: false
+  # url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
+  # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
+  url:
+
+#文章分页按钮
+# post_pagination (分页)
+# value: 1 || 2 || false
+# 1: The 'next post' will link to old post
+# 2: The 'next post' will link to new post
+# false: disable pagination
+post_pagination: 2
+
+
+# footer 博客年份\背景
+footer:
+  owner:
+    enable: true
+    since: 2023
+  custom_text: I wish you to become your own sun, no need to rely on who's light.<p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://www.jsdelivr.com/"><img src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr" title="本站使用JsDelivr为静态资源提供CDN加速"></a> &nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio" title="本站采用双线部署，联通线路托管于Coding"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
+
+
+# footer是否显示图片背景(与top_img一致)
+footer_bg: true
+
+#侧边栏设置
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true # display on mobile
+  position: right # left or right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: true
+    description:
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/Aruoshui
+  card_announcement:
+    enable: true
+    content: This is my Blog
+  card_recent_post:
+    enable: true
+    limit: 5 # if set 0 will show all
+    sort: date # date or updated
+    sort_order: # Don't modify the setting unless you know how it works
+  card_categories:
+    enable: true
+    limit: 8 # if set 0 will show all
+    expand: none # none/true/false
+    sort_order: # Don't modify the setting unless you know how it works
+  card_tags:
+    enable: true
+    limit: 40 # if set 0 will show all
+    color: true
+    orderby: random # Order of tags, random/name/length
+    order: 1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    sort_order: # Don't modify the setting unless you know how it works
+  card_archives:
+    enable: true
+    type: monthly # yearly or monthly
+    format: MMMM YYYY # eg: YYYY年MM月
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+    limit: 8 # if set 0 will show all
+    sort_order: # Don't modify the setting unless you know how it works
+  card_webinfo:
+    enable: true
+    post_count: true
+    last_push_date: true
+    sort_order: # Don't modify the setting unless you know how it works
+  card_post_series:
+    enable: true
+    orderBy: 'date' # Order by title or date
+    order: -1 # Sort of order. 1, asc for ascending; -1, desc for descending
+
+#访问人数 busuanzi (UV 和 PV)
+busuanzi:
+  site_uv: true  # 本站总访客数
+  site_pv: true  # 本站总访问量 
+  page_pv: true  # 本文总阅读量
+
+
+
+# 运行时间
+runtimeshow:
+  enable: true
+  publish_date: 1/24/2024 00:00:00 
+  ##网页开通时间
+  #格式: 月/日/年 时间
+  #也可以写成 年/月/日 时间
+
+
+# 右下角按钮 (Bottom right button)
+readmode: true
+# dark mode
+darkmode:
+  enable: true
+  # dark mode和 light mode切换按钮
+  button: true
+  autoChangeMode: false
+  # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
+  start: # 8
+  end: # 22
+#滚动状态百分比
+rightside_scroll_percent: true
+#按钮排序
+# Don't modify the following settings unless you know how they work (非必要请不要修改 )
+# Choose: readmode,translate,darkmode,hideAside,toc,chat,comment
+# Don't repeat 不要重复
+rightside_item_order:
+  enable: false
+  hide: # readmode,translate,darkmode,hideAside
+  show: # toc,chat,comment
+
+
+# MathJax
+mathjax:
+  enable: true
+#这里设置为true，表示每一页都是需要我们这个js进行渲染的，会影响页面的速度，但是这样我们操作起来比较方便就这样写了
+  per_page: true
+
+# # KaTeX
+# katex:
+#   enable: true
+#   # true 表示每一页都加载katex.js
+#   # false 需要时加载，须在使用的Markdown Front-matter 加上 katex: true
+#   per_page: false
+#   hide_scrollbar: false
+
+#网站背景
+background:
+
+#打字效果
+# Typewriter Effect (打字效果)
+# https://github.com/disjukr/activate-power-mode
+activate_power_mode:
+  enable: false
+  colorful: true # open particle animation (冒光特效)
+  shake: false #  open shake (抖動特效)
+  mobile: false
+
+
+#背景特效
+canvas_nest:
+  enable: true
+  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+  opacity: 0.7 # the opacity of line (0~1), default: 0.5.
+  zIndex: -1 # z-index property of the background, default: -1.
+  count: 99 # the number of lines, default: 99.
+  mobile: false # false 手機端不顯示 true 手機端顯示
+
+#鼠标点击效果
+fireworks:
+  enable: true
+  zIndex: -1 # -1 or 9999
+  mobile: false
+
+#自定义字体和字体大小
+# Global font settings
+# Don't modify the following settings unless you know how they work (非必要不要修改)
+font:
+  global-font-size:
+  code-font-size:
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Lato, Roboto, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+  code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
+
+#Blog 标题字体
+# Font settings for the site title and site subtitle
+# 左上角网站名字 主页居中网站名字
+blog_title_font:
+  font_link: https://fonts.googleapis.com/css?family=Titillium+Web&display=swap
+  font-family: Titillium Web, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+
+#网站副标题
+# 主页subtitle
+subtitle:
+  enable: true
+  # Typewriter Effect (打字效果)
+  effect: true
+  startDelay: 300 # time before typing starts in milliseconds
+  typeSpeed: 150 # type speed in milliseconds
+  backSpeed: 50 # backspacing speed in milliseconds
+  # loop (循环打字)
+  loop: true
+  # source 调用第三方服务
+  # source: false 关闭调用
+  # source: 1  调用一言网的一句话（简体） https://hitokoto.cn/
+  # source: 2  调用一句网（简体） http://yijuzhan.com/
+  # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
+  # subtitle 会先显示 source , 再显示 sub 的内容
+  source: false
+  # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
+  sub:
+    - 今日事&#44;今日毕
+    - Never put off till tomorrow what you can do today
+
+
+#页面加载动画
+preloader:
+  enable: false
+  # source
+  # 1. fullpage-loading
+  # 2. pace (progress bar)
+  source: 1
+  # pace theme (see https://codebyzach.github.io/pace/)
+  pace_css_url: some_sourse/bounce.css
+
+
+
+#字数统计
+wordcount:
+  enable: true
+  post_wordcount: true
+  min2read: true
+  total_wordcount: true
+
+
+#图片大图查看模式
+# fancybox http://fancyapps.com/fancybox/3/
+fancybox: true
+
+#Pjax
+# Pjax [Beta]
+# It may contain bugs and unstable, give feedback when you find the bugs.
+# https://github.com/MoOx/pjax
+pjax: 
+  enable: true
+  # 对于一些第三方插件，有些并不支持 pjax 。
+  # 你可以把网页加入到 exclude 里，这个网页会被 pjax 排除在外。
+  # 点击该网页会重新加载网站。
+  exclude: 
+    - /music/
+    - /no-pjax/
+
+
+#alogolia配置
+algolia_search:
+  enable: true
+  hits:
+    per_page: 10
+  labels:
+    input_placeholder: Search for Posts
+    hits_empty: "我们没有找到任何搜索结果: ${query}"
+    hits_stats: "找到${hits}条结果（用时${time} ms）"
+
+
+# Inject
+# ps：引入自定义css、js
+#     css文件在head引入，js文件在bottom里引入，有的js要求在head引入，不然无法生效
+# Insert the code to head (before '</head>' tag) and the bottom (before '</body>' tag)
+# ps: 插入代码到头部 </head> 之前 和 底部 </body> 之前
+inject:
+  head: #注入自定义css
+  # 鼠标自定义样式
+   - <link rel="stylesheet" href="/css/this_mouse.css">
+   - <link rel="stylesheet" href="/css/Navigation_bar.css">
+   - <link rel="stylesheet" href="/css/universe.css">
+    # - <link rel="stylesheet" href="/css/style.css?v1">
+    # - <link rel="stylesheet" href="/xxx.css">
+  bottom: #注入自定义js
+   - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> #一定要放在所有引入的js前面！！！
+    # - <script data-pjax type="text/javascript" src="/js/{把大括号里面的这个换成你的js名字}.js"></script>
+  #  - <script src="/js/nav.js"></script>
+   - <script type="text/javascript" src="/js/nav.js"></script>
+   - <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js" async></script>
+   - <script src="/js/sun_moon.js" async></script>
+   - <script defer src="/live2d-widget-master/autoload.js"></script>
+   - <canvas id="universe"></canvas>
+   - <script defer src="/js/universe.js"></script>
+   
+
+#看板娘
+live2d:
+  enable: true
