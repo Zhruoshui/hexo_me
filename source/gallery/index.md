@@ -1,7 +1,7 @@
 ---
-title: gallery
+title: Gallery
 date: 2024-01-29 20:01:13
-type: "gallery"
+type: "Gallery"
 ---
 
 <div class="gallery-group-main">
