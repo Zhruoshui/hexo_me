@@ -5,7 +5,7 @@ tags:
   - 数学表达式
 categories:
   - Math
-cover: 'https://pic.rmb.bdstatic.com/bjh/news/810edf4f9f75f0d52cd5fcde2e656012.jpeg'
+cover: 'https://image.aruoshui.fun/i/2024/12/31/vskdu5-0.webp'
 description: 描述数学和科学公式的开源MathJax
 swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
 abbrlink: 31281

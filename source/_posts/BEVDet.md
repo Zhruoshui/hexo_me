@@ -7,7 +7,7 @@ tags:
 categories:
   - AI
 abbrlink: 1976
-cover: 'https://img2.baidu.com/it/u=594764063,1486024500&fm=253&fmt=auto&app=120&f=JPEG?w=889&h=500'
+cover: 'https://image.aruoshui.fun/i/2024/12/31/vuewo5-0.webp'
 swiper_index: 3 #置顶轮播图顺序，非负整数，数字越大越靠前
 date: 2024-02-26 13:44:30
 ---

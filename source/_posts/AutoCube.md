@@ -5,7 +5,7 @@ tags:
   - OpenCV
 categories:
   - 一些有趣的小项目
-cover: 'https://s2.loli.net/2024/03/05/yqt2sh1ixrJRBW8.jpg'
+cover: 'https://image.aruoshui.fun/i/2024/12/31/vsjrzz-0.webp'
 swiper_index: 2
 abbrlink: 37842
 date: 2024-03-05 19:32:05
@@ -21,7 +21,7 @@ date: 2024-03-05 19:32:05
 
 
 # 项目来源
-{% link 魔方自动还原, https://github.com/RexWzh/rubik_cube.py?tab=readme-ov-file, https://s2.loli.net/2024/03/05/SyojJXzxWFNIYT8.jpg %}
+{% link 魔方自动还原, https://github.com/RexWzh/rubik_cube.py?tab=readme-ov-file, http://image.aruoshui.fun/i/2024/12/31/qrh9hd-0.webp %}
 
 # 项目概述
 利用opencv进行模版匹配识别，识别结果结合三阶魔方[科先巴二阶段算法](https://github.com/muodov/kociemba)，计算还原步数（根据算法，任何打乱的三阶魔方都可以在21步以内还原完成【不包括扭角捣乱的】，得到还原步数利用Python的[pyautogui](https://github.com/asweigart/pyautogui)库进行自动化执行）

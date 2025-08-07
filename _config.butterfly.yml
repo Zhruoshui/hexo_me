@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 🎮若水の博客🎮
+title: 若水の博客
 
 description: ''
 keywords: 'blog'
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://82.157.175.85/
+url: https://blog.aruoshui.fun/
 
 permalink: posts/:abbrlink.html
 permalink_defaults:
@@ -104,11 +104,11 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@82.157.175.85:/var/repo/hexo.git
+  repository: git@blog.aruoshui.fun:/var/repo/hexo.git
   branch: master
 
 nav:
-  logo: "https://s2.loli.net/2024/02/13/iUmwkz7VPv9ZGbC.jpg"
+  logo: "https://image.aruoshui.fun/i/2024/12/31/vkaiy2-0.webp"
   display_title: true
   fixed: true # fixed navigation bar
 
@@ -122,10 +122,12 @@ menu:
   标签: /tags/ || iconfont icon-biaoqian
   分类: /categories/ || iconfont icon-qingdan
   留言板: /comments/ || iconfont icon-xiewenzhang
-  清单||fa fa-heartbeat:
-    音乐: /music/ || fas fa-music
-    图库: /Gallery/ || fas fa-images
-    电影: /movies/ || fas fa-video
+  清单|| iconfont icon-yugu: 
+    我的她: /Box/myLove/ || iconfont icon-shijian
+    图库: /Box/Gallery/ || iconfont icon-tukuguanli
+    网站分享: /Box/webShare/ || iconfont icon-tongyong-wangzhan-fenxiang1
+    电影: /Box/movie/ || iconfont icon-yu
+    游戏: /Box/myGame/ || iconfont icon-a-bingqilintiantong
   友链: /link/ || iconfont icon-lianjie_
   关于: /about/ || iconfont icon-guanyuwomen
 
@@ -160,13 +162,13 @@ social:
 
 
 avatar:
-  img: https://s2.loli.net/2024/02/13/iUmwkz7VPv9ZGbC.jpg
+  img: https://image.aruoshui.fun/i/2024/12/31/vkaiy2-0.webp
   effect: false # 头像会一直转圈
 
 # 顶部图
-index_img: https://s2.loli.net/2024/01/29/kaL9Q4P2dBHw1Kp.jpg # 'linear-gradient(135deg, #c7e9fb, #a6defa, #80d4f9, #5bc9f8, #35bef7)'
-default_top_img: https://s2.loli.net/2024/02/13/JW92CT4YR1PKqIb.jpg
-tag_img: https://s2.loli.net/2024/01/29/z8cwbOdQ3mgSn4x.png
+index_img: https://image.aruoshui.fun/i/2024/12/31/up9esa-0.webp # 'linear-gradient(135deg, #c7e9fb, #a6defa, #80d4f9, #5bc9f8, #35bef7)'
+default_top_img: https://image.aruoshui.fun/i/2024/12/31/vh7tky-0.webp
+tag_img: https://image.aruoshui.fun/i/2024/12/31/vgolkt-0.webp
 
 # 文章封面
 cover:
@@ -179,10 +181,22 @@ cover:
   position: both
   # 当没有设置cover时，默认的封面显示
   default_cover: 
-    - https://s2.loli.net/2024/02/13/6mjgrnWdR4DBtYG.png
-    - https://s2.loli.net/2024/02/13/Ut5KvF2L3JjkglO.png
-    - https://s2.loli.net/2024/02/13/714YfuKxZCjlOq3.jpg
-    - https://s2.loli.net/2024/02/13/RJHWPVlT8fL7byx.jpg
+    - https://image.aruoshui.fun/i/2024/12/31/vqvf20-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqvet7-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqv6e5-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vque87-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqu1jr-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqtxn1-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqtp10-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqtp10-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqtlg9-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqtdks-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqtghh-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqt6nt-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqsz0s-0.webp
+    - https://image.aruoshui.fun/i/2024/12/31/vqssft-0.webp
+
+
 
 # 页面meta显示
 post_meta:
@@ -288,7 +302,7 @@ footer:
     enable: true
     since: 2023
   # custom_text: I wish you to become your own sun, no need to rely on who's light.<p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://www.jsdelivr.com/"><img src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr" title="本站使用JsDelivr为静态资源提供CDN加速"></a> &nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio" title="本站采用双线部署，联通线路托管于Coding"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
-  custom_text: I wish you to become your own sun, no need to rely on who's light.<p><a target="_blank" href="https://hexo.io/"><img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="https://cloud.tencent.com/"><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于腾讯云，评论系统托管于Vercel"></a>&nbsp;<a target="_blank" href="https://beian.miit.gov.cn/"> <img src="https://img.shields.io/badge/%E6%BB%87ICP%E5%A4%87-%E6%BB%87ICP%E5%A4%872024020541%E5%8F%B7-yellow" title="本网站已经加入滇ICP豪华套餐，滇ICP备2024020541号"></a>&nbsp <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
+  custom_text: <img src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a target="_blank" href="https://butterfly.js.org/"><img src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender" title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://github.com/"><img src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub" title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank" href="https://cloud.tencent.com/"><img src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel" title="本站采用双线部署，默认线路托管于腾讯云，评论系统托管于Vercel"></a>&nbsp;<a target="_blank" href="https://beian.miit.gov.cn/"> <img src="https://img.shields.io/badge/%E6%BB%87ICP%E5%A4%87-%E6%BB%87ICP%E5%A4%872024020541%E5%8F%B7-yellow" title="本网站已经加入滇ICP豪华套餐，滇ICP备2024020541号"></a>&nbsp <a target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris" title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
 
 
 # footer是否显示图片背景(与top_img一致)
@@ -315,7 +329,7 @@ aside:
       link: https://github.com/Aruoshui
   card_announcement:
     enable: true
-    content: <center><b>--- 主域名 ---<br><a href="https://www.aruoshui.fun/" title="此线路部署于腾讯云" class="anno_content"><font color="#5ea6e5">aruoshui.fun</font></a>&nbsp;|&nbsp;<br>--- 欢迎来到我的博客 ---<br>🍧<a class="anno_content"><font color="#5ea6e5">欢迎提出你的宝贵意见</font></a>🍧</b></center>
+    content: <center><b>--- 主域名 ---<br><a href="https://blog.aruoshui.fun/" title="此线路部署于腾讯云" class="anno_content"><font color="#5ea6e5">aruoshui.fun</font></a>&nbsp;|&nbsp;<br>--- 欢迎来到我的博客 ---<br>🍧<a class="anno_content"><font color="#5ea6e5">欢迎提出你的宝贵意见</font></a>🍧</b></center>
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -541,7 +555,7 @@ algolia_search:
 # Twikoo 评论
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://aruoshui.fun/ #环境地址
+  envId: https://twikoo.aruoshui.fun/ #环境地址
   region:
   visitor: true #false # 是否显示文章阅读数
   option:
@@ -591,9 +605,9 @@ inject:
    - <script defer src="/js/universe.js"></script>
    
 
-#看板娘
-live2d:
-  enable: true
+# #看板娘
+# live2d:
+#   enable: true
 
 #信笺
 # envelope_comment
@@ -663,3 +677,16 @@ tag_plugins:
     iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/
     carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js
     tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css
+
+
+
+
+# # #豆瓣
+# # # 如果你有使用hexo-douban，可配置這個
+# douban:
+#    meta: true
+#    movies_img: https://fastly.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/movie.jpg
+#    books_img: https://fastly.jsdelivr.net/npm/blog-gallery@1.0.0/1/20200206161657.webp
+# #   games_img:
+
+

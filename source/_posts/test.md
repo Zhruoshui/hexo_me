@@ -1,6 +1,6 @@
 ---
 title: test
-cover: 'https://s2.loli.net/2024/02/13/91JVAvROnpFfzMm.jpg'
+cover: 'https://image.aruoshui.fun/i/2024/12/31/vshir1-0.webp'
 description: 测试功能随便写的
 abbrlink: 63534
 date: 2024-1-26 10:28:48
