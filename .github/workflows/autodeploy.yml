@@ -42,7 +42,7 @@ jobs:
         run: |
           npx hexo clean
           npx hexo generate
-          npx hexo algolia
+        # npx hexo algolia
 
       - name: 8. 推送到服务器私有仓库
         uses: easingthemes/ssh-deploy@main
