@@ -34,3 +34,5 @@ swiper_index: #置顶轮播图顺序，非负整数，数字越大越靠前
 
 {% link 稀土掘金, https://zhuanlan.zhihu.com/p/666861211,  https://image.aruoshui.fun/i/2025/09/22/hijfn6-0.webp%}
 
+{% link arXiv, https://zhuanlan.zhihu.com/p/666861211, https://image.aruoshui.fun/i/2025/10/18/x4rcnb-0.webp %}
+
