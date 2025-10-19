@@ -233,10 +233,49 @@ Vibe 编码架构本质上是基于反应式模型运行的，在这种模型中
 | 4. 记忆&上下文     |  向量库、滑动窗口、RAG、KV-Cache 压缩        | 跨轮次上下文     |
 | 5. MCP     | 上下文 Schema 标准、会话状态序列化、工具调用元数据封装、跨服务上下文同步机制         | 统一模型在不同工具、记忆模块和执行环境间传递上下文的格式与语义，确保多组件协同的一致性与可扩展性     |
 
+---
 # 使用Claude Code Sub-Agents实现自动化数据分析工厂
 
+## 五个智能体角色
+![image](https://image.aruoshui.fun/i/2025/10/19/h5pqgb.webp)
 
+## 分步骤完成数据分析
+1. 先让AI进行探索性数据分析：exploratory
+在claude code中执行 ： `/analyze sample.csv exploratory`
+我们这里第一步是`/analyze`，意思就是先分析看看，考察一下情况。这个是利用了claude code的command技术。
+**AI自动选择合适的agent去处理工作：**
+![Agent自动调用](https://linux.do/uploads/default/original/4X/1/a/c/1acdfba4507380e5f3bd1a172aaceab62af93ad9.png)
+![分析效果](https://linux.do/uploads/default/original/4X/4/0/6/406c5d21dff4d5930fae0b57877fdb9309db67c3.png)
 
+2. 下一步我们试试可视化：
+在claude code中执行 ：`/visualize your_data.csv distribution`
+`/visualize` 就是可视化命令， `distribution`就是可视化数据分布，这里你可以按你要求的可视化内容，AI会理解的。例如：` /visualize your_data.csv `趋势
+![过程](https://linux.do/uploads/default/original/4X/0/7/b/07bc72c5bcdfb6126779b6020df2b3a2c488e06b.png)
+![可视化效果](https://linux.do/uploads/default/original/4X/4/8/d/48dc0ee5ca1a67532590ff17420605777b68b10d.png)
+只需要一行命令，就可以得到这么多专业数据分析可视化成果。同时生成代码，可以检查和改变。
+
+3. 下一步让AI生成数据分析详细报告
+在claude code中执行 ：`/report your_data.csv`
+![分析报告](https://linux.do/uploads/default/original/4X/9/a/2/9a21a5177ab3bd61bcac589c977866033fb947ca.png)
+
+4. 还有其他更深入的功能：
+   1. `/generate [language] [type]: Generate code `，这个是生成编程语言版本的深度数据分析。
+   2. `/hypothesis [dataset] [domain]: Generate hypotheses` ，这个是预测类型的数据分析，例如分类，趋势，关联，预测建模后，还会自动进行假设检验，确定模型准确性。
+
+## 一条龙全自动化数据分析
+1. 执行命令 `/do-all`——调用5个agent分工合作，专业的数据分析师，一条龙解决数据分析的步骤和分析。
+![调用过程](https://linux.do/uploads/default/optimized/4X/4/f/9/4f9a0baab8f97ab2dd0c5a740dbd7abcb34b7321_2_1134x1000.png)
+
+2. claude code 工作一小时——干到完成为止
+![分工合作过程](https://linux.do/uploads/default/optimized/4X/d/7/3/d73b5d03d4ffe98a0286990c5f4de0fb5d68da8f_2_1060x1000.png)
+
+3. 得到数据分析结果
+![分析结果](https://linux.do/uploads/default/optimized/4X/0/f/4/0f4a07ce6849984d146df749a36f1b5f1f4783ff_2_1086x998.png)
+![总结](https://linux.do/uploads/default/original/4X/4/a/a/4aa6f7b2483c4052f6d778e4bc1401d2908e1753.png)
+![生成的代码文件](https://linux.do/uploads/default/optimized/4X/e/6/5/e657655085cd3f52a1cb78dc61de3aa03d270515_2_358x998.png)
+![可视化效果](https://linux.do/uploads/default/optimized/4X/c/7/3/c73bb6ea0859657f5d07c6f1e88c16833ddcaca4_2_1380x868.png)
+
+---
 # 《How Anthropic teams use Claude Code》
 {% note success flat %}
 黄仁勋特别提到：Nvidia的软件工程师和芯片设计师 100%使用Cursor 来辅助日常工作。他表示：“现在我们的所有工程师都有AI助手，工作效率大幅提升。”
