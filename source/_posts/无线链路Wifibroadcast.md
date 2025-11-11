@@ -3,8 +3,10 @@ title: 无线链路Wifibroadcast
 abbrlink: 22013
 date: 2025-01-14 17:29:35
 tags:
+  - 无线广播
 description:
 categories:
+  - 嵌入式开发
 cover: https://image.aruoshui.fun/i/2024/12/31/vqssft-0.webp
 swiper_index:
 ---

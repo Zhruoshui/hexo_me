@@ -3,8 +3,10 @@ title: makefile工程项目
 abbrlink: 26988
 date: 2024-02-26 20:03:31
 tags:
+  - 编译 
 description:
 categories:
+  - 开发技能
 cover:
 swiper_index:
 ---
@@ -362,7 +364,7 @@ all:
 @echo "B = $(B)"
 @echo "C = $(C)"
 ```
-   
+
 shell
 ```makefile
 .PHONY:all clean

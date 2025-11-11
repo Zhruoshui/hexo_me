@@ -5,12 +5,16 @@ date: 2024-12-25 20:46:37
 tags:
  - Bootloader
 description:
-categories: 嵌入式开发
-cover:
+categories: 
+  - 底层开发
+cover: https://image.aruoshui.fun/i/2025/11/11/nlr0ue-0.webp
 swiper_index:
 ---
 
 # 参考文章
+
+
+
 {% link bootloader的全面解析, https://blog.csdn.net/qq_51004011/article/details/138376644, https://image.aruoshui.fun/i/2025/01/02/ni2zi4-0.webp %} 
 {% link GD32F450数据手册 %}
 {% link STM32 开发必备-内存地址（*****）, https://zhuanlan.zhihu.com/p/648904738, https://image.aruoshui.fun/i/2025/01/02/ni2zi4-0.webp %} 
@@ -22,8 +26,8 @@ swiper_index:
 在嵌入式操作系统中，BootLoader是在操作系统内核运行之前运行。可以初始化硬件设备、建立内存空间映射图，从而将系统的软硬件环境带到一个合适状态，以便为最终调用操作系统内核准备好正确的环境。 
 在嵌入式系统中，通常并没有像BIOS那样的固件程序（注，有的嵌入式CPU也会内嵌一段短小的启动程序），因此整个系统的加载启动任务就完全由BootLoader来完成。
 **BootLoader 起到了桥梁的作用，连接了硬件启动与高级软件运行之间的环节，确保系统能够从一个初始、裸机的状态过渡到一个完整的、可操作的运行环境。**  
- 
- 
+
+
 ## 两种Bootloader
 **MCU的Bootloader和嵌入式linux或pc有所不同，与不同芯片才用的存储架构有关**
 1. MCU

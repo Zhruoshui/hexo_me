@@ -5,9 +5,10 @@ abbrlink: 26256
 date: 2024-03-21 13:41:03
 cover: https://image.aruoshui.fun/i/2024/12/31/vsjb7w-0.webp
 tags:
- - 抓包
+  - 抓包
+  - 常用网络协议
 categories:
-  - 必学开发技能 
+  - 开发技能 
 ---
 
 {% timeline 跟踪日志,blue %}
@@ -279,7 +280,7 @@ HTTP 协议简单来说就是客户端与服务器之间一发一收的模型
 1. Request Method：请求方法，这里的请求方法是HEAD，用来获取报文首部
 2. Request URI：请求的URL，因为我们没指定，所以默认是/
 3. Request Version：请求的版本，因为用的是HTTP协议，所以这里显示HTTP协议的版本
-  
+
 请求头部分：
 Host：目标主机
 User-Agent：代理，也就是浏览器的类型。我们用的不是浏览器，所以这里显示的是命令curl

@@ -8,7 +8,7 @@ categories:
   - AI
 abbrlink: 1976
 cover: 'https://image.aruoshui.fun/i/2024/12/31/vuewo5-0.webp'
-swiper_index: 3 #置顶轮播图顺序，非负整数，数字越大越靠前
+swiper_index: 
 date: 2024-02-26 13:44:30
 ---
 # 1.环境配置
@@ -224,7 +224,7 @@ python tools/create_data_bevdet.py
 首先通过测试来实现论文效果，直接使用官方训练好的权重，[详情请见](https://github.com/HuangJunJie2017/BEVDet/blob/dev2.1/README.md)，[官方权重](https://pan.baidu.com/s/1237QyV18zvRJ1pU3YzRItw?pwd=npe1#list/path=%2F)
 ```python
 python tools/test.py ./configs/bevdet/bevdet-r50.py ckpts/bevdet-r50.pth --eval mAP
-``` 
+```
 
 
 # 5.可视化

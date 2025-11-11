@@ -5,7 +5,8 @@ date: 2025-04-09 12:28:20
 tags:
 description:
 categories:
-cover:
+  - 系统开发
+cover: https://image.aruoshui.fun/i/2025/11/11/nt2umg-0.webp
 swiper_index:
 ---
 

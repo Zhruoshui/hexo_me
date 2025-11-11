@@ -1,10 +1,17 @@
 ---
-layout: 嵌入式linux
 title: Buildroot
 date: 2025-02-06 19:31:46
 tags:
-categories: 嵌入式Linux
+  - linux
+  - 内核裁剪
+categories: 
+  - 底层开发
+description:
+cover: https://image.aruoshui.fun/i/2025/11/11/nmws9h-0.webp
+swiper_index:
 ---
+
+
 
 # 参考文章
 {% link Linux发行版列表, https://zh.wikipedia.org/wiki/Linux%E5%8F%91%E8%A1%8C%E7%89%88%E5%88%97%E8%A1%A8, https://image.aruoshui.fun/i/2025/02/12/s7cjv0-0.webp %} 
@@ -16,6 +23,8 @@ categories: 嵌入式Linux
 
 # 发行版Linux操作系统
 Linux发行版(也叫做GNUlinux发行版)，为一般用户预先集成好的Linux操作系统及各种应用软件。一般用户不需要重新编泽，在直接安装之后，只需要小幅度更改设置就可以使用，通常以软件包管理系统来进行应用软件的营理，Linux发行板通常包含了包括桌面环境办公包、媒体播放器、数据车等应用软件。这些保作系统通总由Linux内核、以及来自GNU计划的大量的函数库，和基于x Window或者Wayland的图形界面。
+
+
 
 ## Debian系列
 Debian及其派生发行版使用deb软件包格式，并使用dpkg及其前端作为软件包管理器。
@@ -91,6 +100,7 @@ buildroot是Linux平台上一个构建嵌入式Linux系统的框架。整个Buil
 3. 系统固件生成器从源代码构建所有组件
 4. 注重简单
    
+
 **支持**
 1. 根文件系统映像
 2. 内核、引导加载程序、工具链

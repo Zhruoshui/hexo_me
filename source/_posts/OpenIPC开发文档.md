@@ -3,9 +3,11 @@ title: OpenIPC开发文档
 abbrlink: 9117
 date: 2025-01-09 15:13:14
 tags:
+  - 网络摄像头
 description:
 categories:
-cover:
+  - 嵌入式开发 
+cover: https://image.aruoshui.fun/i/2025/11/11/ny9ek4-0.webp
 swiper_index:
 ---
 
@@ -83,7 +85,7 @@ reset
  U-Boot 命令系列显示了一个典型的嵌入式系统启动流程，尤其是在网络启动（TFTP）和闪存操作方面的详细步骤。
 
 1. **`setenv ipaddr 10.81.1.230` 和 `setenv serverip 10.81.1.102`**
-这两个命令设置了 U-Boot 环境变量，用于指定网络设置,用于通过 TFTP 下载内核或文件系统镜像：
+   这两个命令设置了 U-Boot 环境变量，用于指定网络设置,用于通过 TFTP 下载内核或文件系统镜像：
    - **`ipaddr`**：这设置了 U-Boot 启动时使用的本机 IP 地址，`10.81.1.230` 是设备将会使用的 IP 地址。
    - **`serverip`**：指定了 TFTP 服务器的 IP 地址，`10.81.1.102` 是存储内核镜像的服务器。
 1. **`mw.b x21000000 x x1000000`**
@@ -529,7 +531,7 @@ main(int argc, char* const *argv)
 - 挂载其他系统关键文件系统（如 /proc、/dev 和 /overlay）。
 
 #### RootFS 的内容
-   
+
 在 Buildroot 中，根文件系统（RootFS）是由多个目录和文件构成的，这些目录和文件用于支持系统运行。常见的文件夹有：
 
 /bin/：基本的可执行文件，如 sh、ls 等。
@@ -724,7 +726,7 @@ esac
   - `stop`：调用 `stop` 函数，停止 `syslogd`。
   - `restart` 或 `reload`：先停止进程，等待 1 秒后重新启动，确保服务能平滑重启。
   - 如果参数无效，输出使用提示并退出脚本。
-{% endfolding %}
+  {% endfolding %}
 
 
 {% folding S02klogd%}
@@ -1230,7 +1232,7 @@ esac
    - 根据 PID 文件终止进程，并删除 PID 文件。
 3. **重启流程**：
    - 先停止，再启动，确保服务重新加载。
-{% endfolding %}
+   {% endfolding %}
 
 {% folding S50dropbear %}    
 **dropbear**，这是一种轻量级的SSH服务器，允许远程访问系统。这个脚本会初始化SSH服务，允许通过SSH连接。
@@ -1744,7 +1746,7 @@ stop)
 {% folding S99rc.local %}
 **rc.local** 是启动过程的最后一个步骤，通常用于执行最后的初始化任务或者自定义命令。系统初始化完成后，这里可以添加需要的启动命令，或者启动一些不属于其他服务的应用。
 {% endfolding %}
- 
+
 ##### 工作流：
 1. **系统初始化阶段**：`rcS` 脚本会启动，并执行一些基础的系统配置，包括随机数生成、日志守护进程、内核参数配置等。
 2. **服务启动**：之后，系统会依次启动一些基本的服务，如内核模块加载、设备管理、网络配置、时间同步等。

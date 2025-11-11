@@ -2,13 +2,17 @@
 title: 大模型调优方法：提示工程、RAGs与微调
 description: 模型领域智能
 categories:
-  - 必学开发技能
+  - AI
 abbrlink: 43169
 date: 2025-09-22 10:40:57
-tags:
+tags: 
+  - 大模型
+  - RAG
 cover: https://b0.bdstatic.com/ugc/ex66jsc1SBbe8Mnilmv9xgeeddcdf08194a3fd0c69b0bd9fe28a7b.jpg
 swiper_index:
 ---
+
+
 
 
 # 参考文章

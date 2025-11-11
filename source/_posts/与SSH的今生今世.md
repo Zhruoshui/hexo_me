@@ -7,7 +7,7 @@ tags:
   - 加密
   - 网络安全
 categories:
-  - 必学开发技能
+  - 开发技能
 cover: 'https://image.aruoshui.fun/i/2024/12/31/vsj31n-0.webp'
 abbrlink: 12699
 date: 2024-03-14 20:43:03

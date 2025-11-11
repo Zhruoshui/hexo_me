@@ -3,9 +3,11 @@ title: GDB调试工具
 abbrlink: 14250
 date: 2024-03-05 20:08:01
 tags:
+  - GDB
 description:
 categories:
-cover:
+  - 开发工具
+cover: https://image.aruoshui.fun/i/2025/11/11/nq3vi5-0.webp
 swiper_index:
 ---
 
@@ -16,6 +18,8 @@ swiper_index:
 {% link CSDN, https://zhuanlan.zhihu.com/p/666861211,  https://image.aruoshui.fun/i/2025/01/02/ni2zi4-0.webp%} 
 
 {% link github, https://zhuanlan.zhihu.com/p/666861211,  https://image.aruoshui.fun/i/2025/01/13/p2416y-0.webp%} 
+
+
 
 最经常用的就用例子来介绍：
 ```powershell

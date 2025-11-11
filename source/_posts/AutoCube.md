@@ -4,7 +4,7 @@ description: 闲逛github看到的一个有趣的项目
 tags:
   - OpenCV
 categories:
-  - 一些有趣的小项目
+  - 好玩的项目
 cover: 'https://image.aruoshui.fun/i/2024/12/31/vsjrzz-0.webp'
 swiper_index: 2
 abbrlink: 37842

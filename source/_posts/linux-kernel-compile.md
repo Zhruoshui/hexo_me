@@ -1,16 +1,20 @@
 ---
-title: Linux_kernel
+title: linux-kernel-compile
 abbrlink: 59205
 date: 2025-02-13 19:16:28
 tags:
+  - linux内核
 description:
-categories: 嵌入式Linux
-cover:
+categories: 
+  - 系统开发
+cover: https://image.aruoshui.fun/i/2025/11/11/nr8909-0.webp
 swiper_index:
 ---
 
 # 参考文章
 {% link 内核模块, https://blog.csdn.net/weixin_45093118/article/details/139397775, https://image.aruoshui.fun/i/2025/01/02/ni2zi4-0.webp %} 
+
+
 
 
 # Linux kernel开发模式
@@ -290,5 +294,4 @@ Busybox将众多的UNIX命令集合进一个很小的可执行程序中，可以
 
 详细的配置使用可以看
 {% link linux busybox详解, https://blog.csdn.net/m0_66596286/article/details/135559755, https://image.aruoshui.fun/i/2025/01/02/ni2zi4-0.webp %} 
-
 

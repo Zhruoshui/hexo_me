@@ -4,10 +4,9 @@ description: "虽然知道工作要用但是还是喜欢复制粘贴重命名"
 abbrlink: 42679
 date: 2024-03-14 21:02:05
 tags:
-  - 分布式版本控制系统
-  - 开发
+  - git
 categories:
-  - 必学开发技能
+  - 开发技能
 cover: 'https://image.aruoshui.fun/i/2024/12/31/vsi0ft-0.webp'
 ---
 
@@ -69,7 +68,6 @@ git push 失效，因为远程仓库有未拉取到本地的提交
 
 ## 锁定的main
 大型项目中，main（master）分支被锁定保护，需要一些Pull Request流程来合并修改
-
 
 
 

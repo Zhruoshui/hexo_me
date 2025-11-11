@@ -1,10 +1,10 @@
 ---
 title: MathJax
 tags:
+  - markdown
   - 科研工具
-  - 数学表达式
 categories:
-  - Math
+  - blog
 cover: 'https://image.aruoshui.fun/i/2024/12/31/vskdu5-0.webp'
 description: 描述数学和科学公式的开源MathJax
 swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前
@@ -60,7 +60,7 @@ $$
 
 {% endtabs %}
 块公式则是 输入`$$`和`$$`在公式前后。
- 
+
 
 
 # 二、希腊字母
@@ -155,7 +155,7 @@ $ \{ a*b \} + \lbrace a^b \rbrace $
 
 
 
- 
+
 # 五、积分和求和
 ## 积分
 `\int`用来表示积分符号，同样地，其上下标表示积分的上下限。如，
@@ -186,7 +186,7 @@ $ \int_1^\infty $
 `\prod`：$\prod$
 `\bigcup`：$\bigcup$
 `\bigcap`：$\bigcap$
- 
+
 
 # 六、分式与根式
 ## 分式
@@ -251,7 +251,7 @@ f(n)=
 \cfrac n2, &if\ n\ is\ even\\
 3n + 1, &if\  n\ is\ odd
 \end{cases}
-$$ 
+$$
 
 <!-- endtab -->
 
@@ -286,8 +286,7 @@ a_2x+b_2y+c_2z=d_2 \\
 a_3x+b_3y+c_3z=d_3
 \end{array}
 \right .
-
-$$ 
+$$
 <!-- endtab -->
 {% endtabs %}
 
@@ -321,10 +320,10 @@ n & \text{Left} & \text{Center} & \text{Right} \\
 2 & -1 & 189 & -8 \\
 3 & -20 & 2000 & 1+10i \\
 \end{array}
-$$ 
+$$
 <!-- endtab -->
 {% endtabs %}
- 
+
 
 # 九、矩阵
 ## 基本用法
@@ -350,8 +349,7 @@ $$
 1 & y & y^2 \\
 1 & z & z^2 \\
 \end{matrix}
-
-$$ 
+$$
 <!-- endtab -->
 {% endtabs %}
 
@@ -423,7 +421,7 @@ $$
 1 & 2  \\
 3 & 4  \\
 \end{pmatrix}
-$$ 
+$$
 
 
 (2) bmatrix:
@@ -433,7 +431,7 @@ $$
 1 & 2  \\
 3 & 4  \\
 \end{bmatrix}
-$$ 
+$$
 
 
 (3) Bmatrix:
@@ -443,7 +441,7 @@ $$
 1 & 2  \\
 3 & 4  \\
 \end{Bmatrix}
-$$ 
+$$
 
 
 (4) vmatrix:
@@ -453,7 +451,7 @@ $$
 1 & 2  \\
 3 & 4  \\
 \end{vmatrix}
-$$ 
+$$
 
 
 (5) Vmatrix:
@@ -463,7 +461,7 @@ $$
 1 & 2  \\
 3 & 4  \\
 \end{Vmatrix}
-$$ 
+$$
 
 
 <!-- endtab -->
@@ -496,8 +494,7 @@ $$
 \vdots&\vdots&\vdots&\ddots&\vdots\\
 1&a_m&a_m^2&\cdots&a_m^n\\
 \end{pmatrix}
-
-$$ 
+$$
 <!-- endtab -->
 {% endtabs %}
 
@@ -528,7 +525,7 @@ $$
 4&5&6
 \end{array}
 \right]
-$$ 
+$$
 <!-- endtab -->
 {% endtabs %}
 
@@ -581,5 +578,4 @@ $$
 公式经常复用，Mathjax中有一个类似于函数的功能
 
 使用`\tag{yourtag}`来标记公式，如果想在之后引用该公式，则还需要加上`\label{yourlabel}`在`\tag`之后
-
 

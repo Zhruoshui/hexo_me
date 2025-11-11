@@ -1,15 +1,14 @@
 ---
 title: TDD的文艺复兴：Claude Code如何重塑测试驱动开发
-date: 2025-10-30 10:00:00
 tags:
   - TDD
   - Claude Code
-  - AI编程
-  - 软件工程
 categories:
-  - 软件开发
+  - AI
+abbrlink: 26875
+date: 2025-10-30 10:00:00
 description:
-cover: 
+cover:
 swiper_index:
 ---
 

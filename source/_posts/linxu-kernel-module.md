@@ -1,11 +1,14 @@
 ---
-title: linxu内核学习笔记
+title: linxu-kernel-module
 abbrlink: 6793
 date: 2025-02-25 19:52:45
 tags:
+  - 模块机制
+  - linux内核
 description:
 categories:
-cover:
+  - 系统开发
+cover:https://image.aruoshui.fun/i/2025/11/11/nuqoto-0.webp
 swiper_index:
 ---
 
@@ -15,6 +18,8 @@ swiper_index:
 {% link CSDN, https://zhuanlan.zhihu.com/p/666861211,  https://image.aruoshui.fun/i/2025/01/02/ni2zi4-0.webp%} 
 
 {% link github, https://zhuanlan.zhihu.com/p/666861211,  https://image.aruoshui.fun/i/2025/01/13/p2416y-0.webp%} 
+
+
 
 # 软件分层思想
 1. BSP：嵌入式底层系统开发，调试程序，让特定的系统跑在特定的板子上，具体的工作包括调Bootloader程序，加载操作系统内核，文件系统的加载，外设驱动程序的开发。

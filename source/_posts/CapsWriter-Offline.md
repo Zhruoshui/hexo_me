@@ -5,7 +5,7 @@ description: 一个 PC 端的语音输入、字幕转录工具
 tags:
   - 语音识别
 categories:
-  - 一些有用的小工具
+  - 工具
 cover: 'https://qnwebstaticstorage.aoscdn.com/lightpdf/wp-content/uploads/2022/03/speech-to-text2-1.jpg.webp'
 swiper_index: 1
 abbrlink: 55158

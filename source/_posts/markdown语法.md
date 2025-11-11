@@ -1,12 +1,12 @@
 ---
-title: 语法
+title: markdown语法
 description: 本文汇总Markdown格式在网页端的渲染效果，可作为文档进行查询
 
 tags:
   - Markdown
   - 外挂标签
 categories:
-  - 演示
+  - blog
 mathjax: true
 abbrlink: 13495
 

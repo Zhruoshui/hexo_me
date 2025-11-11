@@ -1,15 +1,13 @@
 ---
 title: Anthropic公司的成功之路：从0到1835亿美元的秘密
-date: 2025-10-30 22:00:00
 tags:
-  - Anthropic
-  - Claude
-  - AI创业
   - 企业文化
   - 产品哲学
 categories:
-  - 科技观察
+  - 市场洞察
 description: 深入剖析Anthropic在短短四年内成为AI领域独角兽的核心竞争力
+abbrlink: 14135
+date: 2025-10-30 22:00:00
 cover:
 ---
 

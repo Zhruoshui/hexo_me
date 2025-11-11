@@ -3,9 +3,11 @@ title: arm架构
 abbrlink: 53135
 date: 2025-02-12 17:11:58
 tags:
+  - ARMv8
 description:
 categories:
-cover:
+  - 底层开发
+cover: https://image.aruoshui.fun/i/2025/11/11/nityvt-0.webp
 swiper_index:
 ---
 
@@ -25,6 +27,8 @@ swiper_index:
 <!-- endtimeline -->
 
 {% endtimeline %}
+
+
 
 
 # 参考文章

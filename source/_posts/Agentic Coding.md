@@ -3,8 +3,10 @@ title: Agentic Coding：编程新范式
 abbrlink: 58749
 date: 2025-07-30 09:33:07
 tags:
+  - 编程新范式
 description:
 categories:
+  - AI
 cover: https://image.aruoshui.fun/i/2025/10/18/x49mxg-0.webp
 swiper_index:
 ---

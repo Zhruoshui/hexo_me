@@ -3,14 +3,16 @@ title: qemu模拟开发板开发
 abbrlink: 34218
 date: 2025-02-06 19:34:54
 tags:
+  - 虚拟机
 description:
 categories:
-cover:
+  - 开发技能
+cover: https://image.aruoshui.fun/i/2025/11/11/nyfpoz-0.webp
 swiper_index:
 ---
 
-
 # 参考文章
+
 {% link 如何配置 QEMU 虚拟机网络, https://huaweicloud.csdn.net/6707aefbe2ce0119e0a1e3eb.html?dp_token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6NjUyNDYwLCJleHAiOjE3NDA2MjcwNjIsImlhdCI6MTc0MDAyMjI2MiwidXNlcm5hbWUiOiJBX3J1b3NodWkifQ.UvK-zaDEx_il-jNwsV5R23KQ9JmvEZ0mjEbYDA-PcRU&spm=1001.2101.3001.6650.15&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Eactivity-15-129685202-blog-131290211.235%5Ev43%5Epc_blog_bottom_relevance_base4&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7Eactivity-15-129685202-blog-131290211.235%5Ev43%5Epc_blog_bottom_relevance_base4&utm_relevant_index=21, https://image.aruoshui.fun/i/2025/01/02/ni2zi4-0.webp %} 
 
 # 使用qemu模拟A9处理器并启动linux全过程记录
@@ -37,7 +39,7 @@ qemu是一个可以虚拟成硬件的软件，随心所欲地使用调试环境�
     sudo apt-get install libsasl2-dev libsdl2-dev libseccomp-dev libsnappy-dev libssh-dev
     sudo apt-get install libvde-dev libvdeplug-dev libvte-2.91-dev libxen-dev liblzo2-dev
     sudo apt-get install valgrind xfslibs-dev 
-    ```
+   ```
    - 编译
     ```powershell
     mkdir build
@@ -51,7 +53,7 @@ qemu是一个可以虚拟成硬件的软件，随心所欲地使用调试环境�
 ```powershell
 wget https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.7.tar.xz
 tar xvf linux-4.14.7.tar.xz
-```    
+```
 #### 编译内核
    下面命令把vexpress_defconfig作为配置文件保存为.config，并根据这个config中的配置进行编译。
    ```powershell
