@@ -12,9 +12,6 @@ cover: https://b0.bdstatic.com/ugc/ex66jsc1SBbe8Mnilmv9xgeeddcdf08194a3fd0c69b0b
 swiper_index:
 ---
 
-
-
-
 # 参考文章
 {% link RAG还是微调——企业应用大模型怎么选？, https://zhuanlan.zhihu.com/p/690173481,  https://image.aruoshui.fun/i/2025/02/13/o4yax8-0.webp%} 
 
