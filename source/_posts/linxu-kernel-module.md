@@ -8,7 +8,7 @@ tags:
 description:
 categories:
   - 系统开发
-cover:https://image.aruoshui.fun/i/2025/11/11/nuqoto-0.webp
+cover: https://image.aruoshui.fun/i/2025/11/11/nuqoto-0.webp
 swiper_index:
 ---
 
