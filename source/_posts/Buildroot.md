@@ -1,13 +1,14 @@
 ---
 title: Buildroot
-date: 2025-02-06 19:31:46
 tags:
   - linux
   - 内核裁剪
-categories: 
+categories:
   - 底层开发
+cover: 'https://image.aruoshui.fun/i/2025/11/11/nmws9h-0.webp'
+abbrlink: 43112
+date: 2025-02-06 19:31:46
 description:
-cover: https://image.aruoshui.fun/i/2025/11/11/nmws9h-0.webp
 swiper_index:
 ---
 
