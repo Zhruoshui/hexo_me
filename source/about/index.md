@@ -6,13 +6,12 @@ top_img: https://image.aruoshui.fun/i/2024/12/31/vkrcfa-0.webp
 
 ---
 
-
 <table>
     <tr style="height: 50px;">
         <td style="font-size: 1.8em;"><strong>张恒👨‍💻</strong></td>
         <td style="font-size: 1.5em;"><strong>求职意向：嵌入式软件开发工程师</strong></td>
         <td rowspan="5">
-            <img src="https://image.aruoshui.fun/i/2025/02/18/re9xn2-0.webp" height="200" alt="">
+            <img src="https://image.aruoshui.fun/i/2026/01/09/igh7j6-0.webp" height="200" alt="">
         </td>
     </tr>
     <tr>
@@ -21,16 +20,17 @@ top_img: https://image.aruoshui.fun/i/2024/12/31/vkrcfa-0.webp
     </tr>
     <tr>
         <td>出生年月：2002年12月</td>
-        <td>邮箱：2021011074@bistu.edu.cn</td>
+        <td>邮箱：Aruoshui_Zh@outlook.com</td>
     </tr>
     <tr>
-        <td>现住址：北京市昌平区</td>
+        <td>现住址：北京市丰台区</td>
         <td>学历：统招一本</td>
     </tr>
     <tr>
-        <td colspan="2">博客：https://blog.aruoshui.fun/（文章：20篇，访问量：2993，访客1443）</td>
+        <td colspan="2">博客：https://blog.aruoshui.fun/</td>
     </tr>
 </table>
+
 
 <hr/>
 

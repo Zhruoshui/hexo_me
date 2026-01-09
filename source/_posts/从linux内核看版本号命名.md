@@ -15,7 +15,7 @@ swiper_index:
 # 参考文章
 {% link linux内核版本号, http://www.kroah.com/log/blog/2025/12/09/linux-kernel-version-numbers/, https://image.aruoshui.fun/i/2025/12/22/f201jo-0.webp %} 
 
-{% link 语义化版本 2.0.0, https://semver.org/lang/zh-CN/, https://image.aruoshui.fun/i/2025/12/22/f201jo-0.webp %}sta
+{% link 语义化版本 2.0.0, https://semver.org/lang/zh-CN/, https://image.aruoshui.fun/i/2025/12/22/f201jo-0.webp %}
 
 
 
