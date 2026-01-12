@@ -1,5 +1,5 @@
 ---
-title: 聊聊那个又长又臭的 Target Triple 字符串
+title: Target Triple不仅仅是字符串
 abbrlink: 53545
 date: 2026-01-9 10:11:58
 tags:
