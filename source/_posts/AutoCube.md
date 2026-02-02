@@ -5,7 +5,7 @@ tags:
   - OpenCV
 categories:
   - 好玩的项目
-cover: 'https://image.aruoshui.fun/i/2024/12/31/vsjrzz-0.webp'
+cover: https://image.aruoshui.fun/i/2024/12/31/vsilyx-0.webp
 swiper_index: 2
 abbrlink: 37842
 date: 2024-03-05 19:32:05
