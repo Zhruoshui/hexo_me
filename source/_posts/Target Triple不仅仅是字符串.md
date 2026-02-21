@@ -452,8 +452,6 @@ file target/aarch64-unknown-linux-gnu/release/cross-compilation-rust-example
 **输出：**
 > target/aarch64-unknown-linux-gnu/release/cross-compilation-rust-example: ELF 64-bit LSB pie executable, ARM aarch64, version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-aarch64.so.1, BuildID[sha1]=9e677d93aacf3092ddefc5b0bb02cacdea74d27f, for GNU/Linux 3.7.0, not stripped
 
-
-
 # 结尾
 软件工程中一个常见现象：实用主义胜过完美设计。作为工程师，我们不需要去标准化，只需要查表和配置即可
 就像Linux内核版本命名也并不是完全根据SemVer标准来的，由于编辑器历史很长，更多的需要考虑实际情况，降低下游用户的依赖维护成本，保留大家认可的命名习惯，这才是比任何八股的标准都更值得信赖的承诺
