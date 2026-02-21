@@ -532,7 +532,7 @@ fancybox: true
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax: 
-  enable: true
+  enable: false
   # 对于一些第三方插件，有些并不支持 pjax 。
   # 你可以把网页加入到 exclude 里，这个网页会被 pjax 排除在外。
   # 点击该网页会重新加载网站。
@@ -595,6 +595,7 @@ inject:
     # - <link rel="stylesheet" href="/xxx.css">
   bottom: #注入自定义js
    - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> #一定要放在所有引入的js前面！！！
+   - <script defer src="https://stats.aruoshui.fun/script.js" data-website-id="e0b721d1-e6bf-4146-91f6-16f70e9f5323"></script>
     # - <script data-pjax type="text/javascript" src="/js/{把大括号里面的这个换成你的js名字}.js"></script>
   #  - <script src="/js/nav.js"></script>
    - <script type="text/javascript" src="/js/nav.js"></script>
@@ -688,5 +689,3 @@ tag_plugins:
 #    movies_img: https://fastly.jsdelivr.net/gh/jerryc127/butterfly_cdn@2.1.0/top_img/movie.jpg
 #    books_img: https://fastly.jsdelivr.net/npm/blog-gallery@1.0.0/1/20200206161657.webp
 # #   games_img:
-
-

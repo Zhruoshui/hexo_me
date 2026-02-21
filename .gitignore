@@ -6,3 +6,4 @@ public/
 .deploy*/
 .vscode/
 .deploy_git*/
+.ace-tool/
