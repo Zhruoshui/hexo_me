@@ -591,12 +591,12 @@ inject:
    - <link rel="stylesheet" href="/css/Navigation_bar.css">
    - <link rel="stylesheet" href="/css/universe.css">
    - <link rel="stylesheet" href="/css/iconfont.css">
+   - <script defer src="https://stats.aruoshui.fun/script.js" data-website-id="e0b721d1-e6bf-4146-91f6-16f70e9f5323"></script>
     # - <link rel="stylesheet" href="/css/style.css?v1">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom: #注入自定义js
    - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> #一定要放在所有引入的js前面！！！
-   - <script defer src="https://stats.aruoshui.fun/script.js" data-website-id="e0b721d1-e6bf-4146-91f6-16f70e9f5323"></script>
-    # - <script data-pjax type="text/javascript" src="/js/{把大括号里面的这个换成你的js名字}.js"></script>
+  # - <script data-pjax type="text/javascript" src="/js/{把大括号里面的这个换成你的js名字}.js"></script>
   #  - <script src="/js/nav.js"></script>
    - <script type="text/javascript" src="/js/nav.js"></script>
    - <script src="http://cdn.bootcss.com/pace/1.0.2/pace.min.js" async></script>
