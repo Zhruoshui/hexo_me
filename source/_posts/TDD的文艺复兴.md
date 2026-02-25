@@ -8,7 +8,7 @@ categories:
 abbrlink: 26875
 date: 2025-10-30 10:00:00
 description:
-cover:
+cover: https://image.aruoshui.fun/i/2026/02/22/qoe04i-2.webp
 swiper_index:
 ---
 

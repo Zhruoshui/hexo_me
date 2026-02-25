@@ -7,7 +7,7 @@ categories:
 description: 深入解析Model Context Protocol（模型上下文协议）的架构、工作原理、配置方法及实践应用
 abbrlink: 16120
 date: 2025-10-31 22:00:00
-cover:
+cover: https://image.aruoshui.fun/i/2026/02/22/qmqi6w-2.webp
 ---
 
 # MCP的妙用
